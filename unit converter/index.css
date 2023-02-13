@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 45%;
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.card {
+    max-width: 55rem;
+    background: #1F2937;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.card-top {
+    background: #6943FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.8rem;
+    line-height: 3.8rem; 
+    margin-bottom: 3rem;
+    color: #FFF;
+    margin-top: 3.3rem;
+}
+
+#card-input {
+    font-family: 'Inter';
+    width: 11.7rem;
+    height: 8.3rem;
+    font-weight: 800;
+    font-size: 5.8rem;
+    line-height: 2.4rem;
+    color: #FFF;
+    background: #6943FF;
+    text-align: center;
+    border: 0.2rem solid #B295FF;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+button {
+    width: 11.7rem;
+    height: 4.2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #3D3D3D;
+    margin-bottom: 3.4rem;
+}
+
+.card-bottom {
+    padding: 3.6rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-converted {
+    width: 50rem;
+    height: 10.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #273549;
+    border-radius: 0.46rem;
+}
+
+.converted1, .converted2 {
+    margin-bottom: 2.4rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #CCC1FF;
+    margin-bottom: 0.9rem;
+}
+
+.para {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #FFF;
+}
+
+button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+@media all and (max-width: 40rem) {
+    * {
+        font-size: 35%;
+    }
+}
